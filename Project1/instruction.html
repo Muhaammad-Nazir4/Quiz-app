@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="Images/fav.png" type="image/png">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Quiz App</title>
+</head>
+<body class="flex" style="background: black;">
+    <header>
+        <ul class="nav">
+            <li><a href="instruction.html" id="ins">Instructions</a></li>
+            <li><a href="Quiz.html" id="">Quizes</a></li>
+            <li><a href="#" id="logout" onclick="logout()" >Logout </a></li>
+        </ul>
+    </header>
+<br><br>
+    <section class="gradient-custom">
+        <div class="container py-4">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-7 col-lg-3 col-xl-5">
+              <div class="card bg-dark text-light" style="border-radius: 1rem;">
+                <div class="card-body p-3 text-center">
+      
+                  <div class="mb-md-5 mt-md-4 pb-3">
+                    <h1 class="fw-bold mb-2 text-uppercase" style="color: orangered; ">Read Carefully</h1>
+                    <ol style="text-align: justify;" id="instruction-list">
+                        <li> The quiz has multiple choice questions.</li>
+                        <li>Each Question has 3 marks.</li>
+                        <li>Once you select option, then click on submit, then the result will be saved.</li>
+                        <li>if you select correct option but not submit it and press "Next" button , then it will be considered as wrong answer.</li>
+                        <li>On giving wrong answer, negative marking (i.e., 1) is included.</li>
+                        <li>You can skip a question by pressing the "Next" button to avoid negative marking.</li>
+                        <li>After skipping a question, you cannot come back to solve it.</li>
+                        <li>After submitting the last question, you can check your result.</li>
+                      </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <script src="js/login.js"></script>
+    
+</body>
+</html>
